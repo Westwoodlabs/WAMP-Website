@@ -135,13 +135,14 @@ nav ul {
 nav ul li {
   display:inline-block;
   border-top:{{navborder}}px solid;
-  padding: {{navborder}}px;
+  /* padding: {{navborder}}px; */
   *display:inline;
   zoom:1;
   line-height:normal;
   letter-spacing:normal;
   text-transform:uppercase;
-  min-width:110px;
+  /*  min-width:110px; */
+  padding:{{navborder}}px 20px 0 20px;
   line-height:60px;
   margin:0;
 }
