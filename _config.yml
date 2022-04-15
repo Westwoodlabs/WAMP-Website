@@ -14,7 +14,7 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Wamp -  Das Westwoolabs Camp"
+title:       "WAMP -  Das Westwoolabs Camp"
 keywords:    "Wamp, Westwoodlabs, Camp, Camping, Hacking "
 description: "Das Hackercamp im Westerwald"
 source_link: "https://tickets.westwood.camp/"
