@@ -14,13 +14,13 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+title:       "Wamp -  Das Westwoolabs Camp"
+keywords:    "Wamp, Westwoodlabs, Camp, Camping, Hacking "
+description: "Das Hackercamp im Westerwald"
+source_link: "https://tickets.westwood.camp/"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key:  ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
@@ -33,6 +33,14 @@ colors:
   orange:    '#fab125'
   turquoise: '#0fbfcf'
 
+  intro:     '#121212'
+  grau:      '#2a2a2a'
+  grau1:     '#3c3c3c'
+  grau2:     '#545454'
+  grau3:     '#6c6c6c'
+  grau4:     '#848484'
+  grau5:     '#a2a2a2'
+  grau6:     '#bababa'
+
 kramdown:
   auto_ids:  false
-

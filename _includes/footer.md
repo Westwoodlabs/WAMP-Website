@@ -1,8 +1,5 @@
 
 
-Design by Tim O'Brien [t413.com](http://t413.com/)
+[Impressum](https://westwoodlabs.de/impressum/)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
-
+[Datenschutz](https://westwoodlabs.de/datenschutzerkl%C3%A4rung/)
