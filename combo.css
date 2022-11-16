@@ -3,3 +3,5 @@
 {% include css/base.css %}
 {% include css/skeleton.css %}
 {% include css/main.css %}
+{% include css/fontawesome.min.css %}
+{% include css/ralewayfont.css %}
