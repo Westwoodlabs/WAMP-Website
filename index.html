@@ -28,7 +28,6 @@
       </ul>
     </nav>
 
-
     {% for page in site.posts reversed %}
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
     <div id="{{id}}" class="section p-{{id}}">
@@ -69,7 +68,6 @@
     </div>
   </div>
 
-  {% include analytics.html %}
 </body>
 <script src="jquery.min.js"></script>
 <script src="site.js"></script>
