@@ -1,0 +1,29 @@
+div.header {
+    padding: 100px 0;
+}
+
+.header h1 {
+    color: #fff !important;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    font-size: 50pt;
+}
+
+.header h2{
+    color: #fff !important;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 15pt;
+    margin: 0;
+}
+
+.header img {
+    vertical-align: center;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+}
