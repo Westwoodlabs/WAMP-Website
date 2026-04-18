@@ -27,3 +27,60 @@ h2 {
     font-family: 'Orbitron', sans-serif;
     font-weight: 400;
 }
+
+/* ----- Background images for sections ----- */
+/* Overlay is baked into the background shorthand as a linear-gradient layer,
+   so no pseudo-element stacking context is created and the sectiondivider
+   circles (position:absolute, top:-135px) remain on the boundary as intended. */
+
+.section {
+    background-size: auto, cover !important;
+    background-position: center center, center center !important;
+    background-attachment: scroll, fixed !important;
+    background-repeat: no-repeat, no-repeat !important;
+}
+
+/* Per-section background images — overlay gradient is the first layer */
+#intro    { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/intro.jpg') !important; }
+#was      { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/was.jpg') !important; }
+#wann-wo  { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/wann.png') !important; }
+#vortraege   { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/vortrag.jpg') !important; }
+#verpflegung { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/verpflegung.jpg') !important; }
+#kosten   { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/kosten.jpg') !important; }
+#wiki     { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/wiki.jpg') !important; }
+#helfen   { background-image: linear-gradient(rgba(20,20,20,0.40), rgba(20,20,20,0.40)), url('img/bg/helfen.jpg') !important; }
+
+/* Force white text in all sections for readability */
+.section .container,
+.section .container p,
+.section .container li,
+.section .container h1,
+.section .container h2,
+.section .container h3,
+.section .container h4,
+.section .container a {
+    color: #f8f8f8 !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Translucent backdrop behind section content */
+.section .container {
+    background: rgba(20, 20, 20, 0.52);
+    border-radius: 8px;
+    padding: 30px 20px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+/* No backdrop on the intro/logo section or footer */
+#intro .container,
+#footer .container {
+    background: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+/* Make sure the sectiondivider circle has a solid background so it pops */
+.subtlecircle.sectiondivider {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.45);
+}
