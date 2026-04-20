@@ -11,4 +11,4 @@ Während der Veranstaltung steht euch ein ewiges Frühstück zur Verfügung und 
 Natürlich wird auch vegetarisches/veganes Essen bereitstehen. Solltet ihr sonstige Lebensmittelunverträglichkeiten haben,
 schreibt uns eine kurze Mail. Wir finden dann sicherlich eine Lösung für euch.
 
-Natürlich könnt ihr auf dem Gelände auch selbst Grillen. Feuerstellen und Holz stehen dafür zur Verfügung.
+Natürlich könnt ihr auf dem Gelände auch selbst Grillen. Feuerstellen stehen dafür zur Verfügung.
